@@ -1,12 +1,3 @@
-#
-# All noted sections must be uncommented in the next release.
-# Also a re-rendering will be required after committing the
-# uncommented portions
-#
-# ref: https://github.com/conda-forge/conda-smithy#re-rendering-an-existing-feedstock
-#
-
-
 {% set version = "0.6.5" %}
 
 package:
@@ -20,34 +11,25 @@ source:
 
 build:
   number: 0
-  ###############################
-  # Uncomment on next release.  #
-  ###############################
-  # script:
-  #  - export CFLAGS="${CFLAGS} -I${PREFIX}/include -L${PREFIX}/lib"  # [unix]
-  #  - python setup.py install --single-version-externally-managed --record record.txt
+  script:
+    - export CFLAGS="${CFLAGS} -I${PREFIX}/include -L${PREFIX}/lib"  # [unix]
+    - python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
-    ###############################
-    # Uncomment on next release.  #
-    ###############################
-    # - toolchain
-    # - python
-    # - cython >=0.25
-    # - numpy x.x
-    # - mako
-    # - setuptools
+    - toolchain
+    - python
+    - cython >=0.25
+    - numpy x.x
+    - mako
+    - setuptools
     - libgpuarray =={{ version }}
 
   run:
-    ###############################
-    # Uncomment on next release.  #
-    ###############################
-    # - python
-    # - numpy x.x
-    # - mako
-    # - six
+    - python
+    - numpy x.x
+    - mako
+    - six
     - libgpuarray =={{ version }}
 
 test:
