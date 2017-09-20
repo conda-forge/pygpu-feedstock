@@ -1,4 +1,4 @@
-{% set version = "0.7.2" %}
+{% set version = "0.7.3" %}
 
 package:
   name: pygpu
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: libgpuarray-{{ version }}.tar.gz
-  url: https://github.com/Theano/libgpuarray/archive/v{{ version }}.tar.gz
-  sha256: ef11ee6f8d62d53831277fd3dcab662aa770a5b5de2d30fe3018c4af959204da
+  url: https://github.com/Theano/libgpuarray/releases/download/v{{ version }}/libgpuarray-{{ version }}.tar.gz
+  sha256: f2b6732e6ed44ecf30d31cd3ad50a1604abc7fd5cc2c004cbf11497b654a2a0c
 
 build:
   number: 0
