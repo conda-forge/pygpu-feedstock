@@ -20,14 +20,14 @@ requirements:
     - toolchain
     - python
     - cython >=0.25
-    - numpy x.x
+    - numpy 1.11.*
     - mako
     - setuptools
     - libgpuarray =={{ version }}
 
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
     - mako
     - six
     - libgpuarray =={{ version }}
