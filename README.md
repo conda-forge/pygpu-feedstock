@@ -14,14 +14,16 @@ Summary: Library to manipulate arrays on GPU
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygpu-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygpu-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygpu-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygpu-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygpu-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygpu-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pygpu-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pygpu-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pygpu-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pygpu-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pygpu-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pygpu-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygpu/badges/version.svg)](https://anaconda.org/conda-forge/pygpu)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygpu/badges/downloads.svg)](https://anaconda.org/conda-forge/pygpu)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pygpu-green.svg)](https://anaconda.org/conda-forge/pygpu) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygpu.svg)](https://anaconda.org/conda-forge/pygpu) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygpu.svg)](https://anaconda.org/conda-forge/pygpu) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygpu.svg)](https://anaconda.org/conda-forge/pygpu) |
 
 Installing pygpu
 ================
